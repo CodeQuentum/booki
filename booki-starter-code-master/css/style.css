@@ -1,13 +1,8 @@
 /***header***/
-header{
-    display: flex;
-    flex-direction: row;
-    width: 60%;
-    align-items: flex-start;
-    margin: auto;
+
+.logo{
+    object-fit: scale-down;
 }
-
-
 
 /****** General ***********/
 * {
