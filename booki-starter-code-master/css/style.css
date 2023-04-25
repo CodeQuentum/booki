@@ -3,6 +3,27 @@
 .logo{
     object-fit: scale-down;
 }
+/****** Filtres ******/
+.filtre{
+    display: flex;
+}
+.filtrebutton{
+    background-color:white;
+    margin-left: 5%;
+    padding: 4px 19px 4px 19px;
+    border: solid;
+    border-radius: 20px 20px 20px 20px;
+    border-color: #D3D3D3;
+    }
+.filtrebutton :hover{
+    background-color:#DEEBFF;
+    margin-left: 5%;
+    padding: 4px 19px 4px 19px;
+    border: solid;
+    border-radius: 20px 20px 20px 20px;
+    border-color: #D3D3D3;
+    }
+
 
 /****** General ***********/
 * {
