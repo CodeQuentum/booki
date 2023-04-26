@@ -1,7 +1,15 @@
 /***header***/
-
-.logo{
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 61px;
+    height: 19px;
     object-fit: scale-down;
+}
+nav{
+    align-items: end;
 }
 /****** Filtres ******/
 .filtre{
@@ -9,7 +17,7 @@
     background-color:white;
 }
 .filtrebutton{
-    margin-left: 5%;
+    margin-left: 15px;
     padding: 4px 19px 4px 19px;
     border: solid;
     border-radius: 20px 20px 20px 20px;
