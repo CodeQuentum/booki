@@ -8,8 +8,15 @@ header{
     height: 19px;
     object-fit: scale-down;
 }
-nav{
+nav a{
     align-items: end;
+    margin: 10px;
+    padding-top: 10px;
+    text-decoration-line: none;
+}
+nav a:hover{
+    color: #0065FC;
+    border-top:2px solid #0065FC;
 }
 /****** Filtres ******/
 .filtre{
