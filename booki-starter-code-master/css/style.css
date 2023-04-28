@@ -79,6 +79,8 @@ nav a:hover{
     border: solid;
     border-radius: 20px 20px 20px 20px;
     border-color: #D3D3D3;
+    font-weight: 700;
+    font-size: 17px;
     }
 .filtrebutton:hover{
     background-color:#DEEBFF;
