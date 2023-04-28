@@ -24,6 +24,9 @@ nav a:hover{
 .searchbar {
     display: flex;
     align-items: center;
+    border: 1px solid #F2F2F2;
+    width: 416px;
+    border-radius: 15px 15px 15px 15px;
   }
   
   .searchbar form {
@@ -33,23 +36,38 @@ nav a:hover{
   }
   
   .searchbar label {
-    margin-right: 10px;
     display: flex;
     align-items: center;
     height:49px;
     width:50px;
-  }
+    justify-content: center;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    }
   
   .searchbar input[type="text"] {
-    height: 49px;
+    height: 47px;
     width: 230px;
+  }
+  .searchbar ::placeholder{
+    color: black
   }
   
   .searchbar input[type="submit"] {
     width: 132px;
     height: 49px;
-  }
+    color: white;
+    background-color: #0065FC;
+    border-radius: 0px 15px 15px 0px;
 
+  }
+  .searchbar input[type="submit"],
+  .searchbar input[type="text"]{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    border-style: none;
+  }
 /****** Filtres ******/
 .filtre{
     display: flex; 
