@@ -9,10 +9,11 @@ header{
     object-fit: scale-down;
 }
 nav a{
-    align-items: end;
+    align-items: flex-start;
     margin: 10px;
-    padding-top: 10px;
+    padding-top: 10px 0px;
     text-decoration-line: none;
+    box-sizing: border-box;
 }
 nav a:hover{
     color: #0065FC;
