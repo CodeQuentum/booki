@@ -303,8 +303,7 @@ body {
     flex-direction: column;
     margin-right: 250px;
     line-height: 8px
-  
-}
+    }
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -341,14 +340,21 @@ body {
         font-size: 13px;
     }
 /****** section filtres ******/
-    .section-filtre{
+    .filtre{
         display: flex;
         flex-direction: column;
-        width: 161px;
-        line-height: 21px;
+        width: 587px;
+    }
+    .button{
+        width: auto;
     }
     .filtrebutton{
+        width: 587px;
+        height :50px;
         font-size: 16px;
+    }
+    .filtre h4{
+        margin-bottom: 0px;
     }
     /****** Activité ******/
     .ensembles_de_cartes{
@@ -363,6 +369,25 @@ body {
     .activity-card img{
     width: 193.5px;
     height: 200px;
+    }
+
+    /****** footer *******/
+    #pied-de-page{
+        bottom: 0;
+        width: 100%;
+        max-width: 924px;
+        padding: 0 50px;
+        box-sizing: border-box;
+        background-color: #f5f5f5;
+    }
+     
+    #pied-de-page .footerbox{
+        margin-right: 120px;
+        line-height: 8px
+        }
+    #pied-de-page p h4{
+        margin-top: 5px;
+        margin-bottom: 0px;
     }
     }
 /* Small devices (phones, less than 768px) */
