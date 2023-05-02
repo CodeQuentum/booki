@@ -85,7 +85,7 @@ nav a:hover{
     margin-left: 15px;
     padding: 4px 19px 4px 19px;
     border: solid;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 25px 25px 25px 25px;
     border-color: #D3D3D3;
     font-weight: 700;
     font-size: 17px;
@@ -343,15 +343,15 @@ body {
     .filtre{
         display: flex;
         flex-direction: column;
-        width: 600px;
+        width: 650px;
     }
     .button{
         width: auto;
     }
     .filtrebutton{
-        width: 600px;
-        height :50px;
+        display: flex;
         font-size: 16px;
+        flex-wrap: nowrap;
     }
     .filtre h4{
         margin-bottom: 0px;
