@@ -343,13 +343,13 @@ body {
     .filtre{
         display: flex;
         flex-direction: column;
-        width: 587px;
+        width: 600px;
     }
     .button{
         width: auto;
     }
     .filtrebutton{
-        width: 587px;
+        width: 600px;
         height :50px;
         font-size: 16px;
     }
