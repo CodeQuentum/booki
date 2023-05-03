@@ -432,6 +432,10 @@ body {
     }
 
     /****** barre de recherche ******/
+
+    .hebergements-and-populaires{
+        
+    }
     /****** Hebergement ******/
         .hebergements{
             order: 2;
