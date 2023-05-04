@@ -444,9 +444,45 @@ body {
     /****** barre de recherche ******/
 
     .hebergements-and-populaires{
-        
+        padding: 0px
     }
+    .hebergements-and-populaires .hebergements{
+        background-color: white;
+        padding: 10px;
+    }
+    /****** Filtres ******/
+
+    .filtre{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .button{
+        width: 375;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .filtrebutton{
+        display: flex;
+        font-size: 14px;
+        flex-wrap: nowrap;
+        gap: 10px;
+        width: 120.5px;
+        height: 50px;
+    }
+    .filtre h4{
+        margin-bottom: 0px;
+    } 
+    
+    /****** Populaire ******/
+        .populaires {
+            order: 1;
+            width: 375px;
+        }
     /****** Hebergement ******/
+        .hebergements .section-title{
+            margin-top: 20px;
+        }
         .hebergements{
             order: 2;
             width: 375px;
@@ -498,32 +534,30 @@ body {
         .hebergements-cards .card-rating {
             margin-bottom: 5px;
         }
-    /****** Populaire ******/
-        .populaires {
-            order: 1;
+    /****** Activités ******/
+        .activites{
+            display: flex;
+            flex-direction: column;
             width: 375px;
         }
-    /****** Filtres ******/
-
-    .filtre{
-        display: flex;
-        flex-direction: column;
-        width: auto;
-    }
-    .button{
-        width: 375;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .filtrebutton{
-        display: flex;
-        font-size: 14px;
-        flex-wrap: nowrap;
-        gap: 10px;
-        width: 120.5px;
-        height: 50px;
-    }
-    .filtre h4{
-        margin-bottom: 0px;
-    }
-}
+        .ensembles_de_cartes{
+            display: flex;
+            flex-direction: column;
+        }
+        .activity-card-content{
+            width: 315px;
+            min-height: 59px;
+        }
+        .activity-card{
+            width: 315px;
+            height: 207.25px;
+            margin-top: 33px;
+        }
+        .activity-card img{
+            width: 315px;
+            height: 124px;
+            border-radius:20px 20px 0px 0px    
+        }
+        .activity-card-content h4{
+            margin-bottom: 0px;
+        }
