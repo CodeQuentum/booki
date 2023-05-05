@@ -298,8 +298,9 @@ body {
 /****** Footer ******/
 #pied-de-page{
     display: flex;
-    align-items: flex-start;
     flex-direction: row;
+    justify-content: flex-start;
+    gap: 250px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -311,7 +312,6 @@ body {
 #pied-de-page .footerbox{
     display: flex;
     flex-direction: column;
-    margin-right: 250px;
     line-height: 8px
     }
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -386,13 +386,14 @@ body {
         bottom: 0;
         width: 100%;
         max-width: 924px;
+        flex-direction: flex-start;
+        gap: 120px;
         padding: 0 50px;
         box-sizing: border-box;
         background-color: #f5f5f5;
     }
      
     #pied-de-page .footerbox{
-        margin-right: 120px;
         line-height: 8px
         }
     #pied-de-page p h4{
@@ -409,10 +410,6 @@ body {
         display: flex;
         flex-direction: column;
     }
-    
-    
-    
-    
     /***** Header ******/
     header{
         display: flex;
