@@ -462,10 +462,12 @@ body {
     .filtrebutton{
         display: flex;
         font-size: 14px;
+        justify-content: center;
+        align-items: center;
         flex-wrap: nowrap;
         gap: 10px;
         width: 120.5px;
-        height: 50px;
+        height: 35px;
     }
     .filtre h4{
         margin-bottom: 0px;
