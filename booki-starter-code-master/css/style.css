@@ -545,7 +545,7 @@ body {
         }
         .activity-card-content{
             width: 315px;
-            min-height: 59px;
+            height: 50px;
         }
         .activity-card{
             width: 315px;
@@ -558,5 +558,8 @@ body {
             border-radius:20px 20px 0px 0px    
         }
         .activity-card-content h4{
-            margin-bottom: 0px;
+        display: flex;
+        padding-top: 10px;
+        align-items: center;
         }
+}
