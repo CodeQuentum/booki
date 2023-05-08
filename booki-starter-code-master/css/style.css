@@ -68,6 +68,9 @@ nav a:hover{
     text-align: center;
     border-style: none;
   }
+  .bouton-tel{
+    display: none;
+  }
 /****** Filtres ******/
 .filtre h4{
     font-size: 18px;
@@ -468,6 +471,22 @@ body {
     .hebergements-and-populaires .hebergements{
         background-color: white;
         padding: 10px;
+    }
+    .searchbar input[type="submit"]{
+        display: none;
+    }
+    .bouton-tel{
+    display:inline;
+    width: 49px;
+    height: 49px;
+    color: white;
+    background-color: #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    }
+    .bouton-tel .fa-solid fa-magnifying-glass fa-xl{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     /****** Filtres ******/
 
