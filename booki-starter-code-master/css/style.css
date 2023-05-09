@@ -475,18 +475,23 @@ body {
     .searchbar input[type="submit"]{
         display: none;
     }
+    .searchbar {
+        border: 1px solid #F2F2F2;
+        width: 393px;
+      }
     .bouton-tel{
-    display:inline;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     width: 49px;
     height: 49px;
     color: white;
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
     }
-    .bouton-tel .fa-solid fa-magnifying-glass fa-xl{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .searchbar input[type="text"] {
+        height: 47px;
+        width: 290px;
     }
     /****** Filtres ******/
 
