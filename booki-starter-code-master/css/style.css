@@ -11,7 +11,7 @@ header{
 nav a{
     align-items: flex-start;
     margin: 10px;
-    padding-top: 10px 0px;
+    padding-top: 10px;
     text-decoration-line: none;
     box-sizing: border-box;
 }
@@ -96,16 +96,26 @@ nav a:hover{
 .filtrebutton:hover{
     background-color:#DEEBFF;
 }
-.info .info-logo{    
+/***** info *****/
+.info-line{
+    display: flex;
+    align-items: center;
+}
+.info-line .fa-solid.fa-info{ 
+    display: flex;
     width: 24px;
     height: 24px;
     margin-bottom: 5px;
-    padding: 5px 9px 5px 9px;
     border: solid 1px;
     border-radius: 50%;
     border-color: #D3D3D3;
     font-weight: 700;
     font-size: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    margin-left: 10px;
 }
 /****** General ***********/
 * {
@@ -290,6 +300,7 @@ body {
     box-sizing: border-box;
 }
 .activity-card img{
+    object-fit: cover;
     width: 297.5px;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
@@ -389,7 +400,6 @@ body {
         bottom: 0;
         width: 100%;
         max-width: 924px;
-        flex-direction: flex-start;
         gap: 120px;
         padding: 0 50px;
         box-sizing: border-box;
@@ -408,6 +418,7 @@ body {
 @media (max-width: 767.98px) {
     .main-container{
         padding: 0 30px;
+        margin-bottom: 600px;
     }
     .hebergements-and-populaires{
         display: flex;
@@ -518,7 +529,8 @@ body {
     .filtre h4{
         margin-bottom: 0px;
     } 
-    
+    /****** info ******/
+ 
     /****** Populaire ******/
         .populaires {
             order: 1;
@@ -588,17 +600,20 @@ body {
         .ensembles_de_cartes{
             display: flex;
             flex-direction: column;
+            padding-left: 5px;
         }
         .activity-card-content{
             width: 315px;
             height: 50px;
         }
         .activity-card{
+            margin-left: 10px;
             width: 315px;
             height: 207.25px;
             margin-top: 33px;
         }
         .activity-card img{
+
             width: 315px;
             height: 124px;
             border-radius:20px 20px 0px 0px    
@@ -607,5 +622,20 @@ body {
         display: flex;
         padding-top: 10px;
         align-items: center;
+        }
+/****** Footer *****/
+        #pied-de-page{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 40px;
+            padding: 0 50px;
+            box-sizing: border-box;
+        
+        }
+        #pied-de-page .footerbox{
+            display: flex;
+            flex-direction: column;
+            line-height: 8px
         }
 }
