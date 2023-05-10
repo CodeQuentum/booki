@@ -198,6 +198,8 @@ body {
 }
 .hebergements-cards a{
     text-decoration: none;
+    margin: 0px;
+    padding: 0px;
     color: black;
 }
 .hebergements-cards .card {
@@ -380,9 +382,10 @@ body {
     }
     .filtrebutton{
         display: flex;
-        font-size: 16px;
+        font-size: 15px;
         flex-wrap: nowrap;
-    }
+        gap: 5px;
+        }
     .filtre h4{
         margin-bottom: 0px;
     }
