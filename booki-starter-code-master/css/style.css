@@ -191,15 +191,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
-
 .hebergements {
     width: 65%;
 }
 .hebergements-cards a{
     text-decoration: none;
-    margin: 0px;
-    padding: 0px;
     color: black;
 }
 .hebergements-cards .card {
@@ -539,7 +537,9 @@ body {
         margin-bottom: 0px;
     } 
     /****** info ******/
- 
+    .info-line .fa-solid.fa-info{
+        width: 28px;
+    }
     /****** Populaire ******/
         .populaires {
             order: 1;
