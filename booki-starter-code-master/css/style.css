@@ -96,6 +96,9 @@ nav a:hover{
 .filtrebutton:hover{
     background-color:#DEEBFF;
 }
+.color-blue{
+    color: #0065fc;
+}
 /***** info *****/
 .info-line{
     display: flex;
@@ -185,6 +188,9 @@ body {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+}
+.color-gris{
+    color: #f2f2f2
 }
 
 /****** Hebergements ***********/
@@ -504,9 +510,11 @@ body {
     align-items: center;
     width: 49px;
     height: 49px;
-    color: white;
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
+    }
+    .color-white{
+        color: white;
     }
     .searchbar input[type="text"] {
         height: 47px;
