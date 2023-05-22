@@ -13,6 +13,7 @@ nav a{
     margin: 10px;
     text-decoration-line: none;
     box-sizing: border-box;
+    color: black;
 }
 nav a:hover{
     color: #0065FC;
