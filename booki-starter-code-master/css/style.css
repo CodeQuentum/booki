@@ -494,6 +494,9 @@ body {
     .hebergements-and-populaires{
         padding: 0px
     }
+    .hebergements-and-populaires .populaires{
+        border-radius: 0%;
+    }
     .hebergements-and-populaires .hebergements{
         background-color: white;
         padding: 10px;
