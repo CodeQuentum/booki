@@ -347,6 +347,7 @@ body {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (min-width: 767.98px) and (max-width: 1024px){
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -415,7 +416,7 @@ body {
         bottom: 0;
         width: 100%;
         max-width: 924px;
-        gap: 15%;
+        gap: 13%;
         padding: 0 50px;
         box-sizing: border-box;
         background-color: #f5f5f5;
@@ -431,6 +432,9 @@ body {
     }
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    body{
+        min-width: 90%;
+    }
     .main-container{
         padding: 0 30px;
         margin-bottom: 600px;
@@ -653,7 +657,7 @@ body {
             gap: 40px;
             padding: 0 50px;
             box-sizing: border-box;
-        
+            width: 112%;
         }
         #pied-de-page .footerbox{
             display: flex;
